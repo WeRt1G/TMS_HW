@@ -1,0 +1,28 @@
+-- SQLite
+-- CREATE TABLE employees (
+--     Name varchar(255),
+--     Position varchar(255),
+--     Department varchar(255),
+--     Salary int
+-- );
+-- INSERT INTO employees (Name, Position, Department, Salary)
+-- VALUES ('Vlad', 'Manager', 'left', 10000),
+-- ('Matvey','Cook' , 'right', 2000),
+-- ('Max','Administrator', 'central', 5001);
+-- UPDATE employees
+-- SET Position='Boss' 
+-- WHERE Position='Administrator';
+-- ALTER TABLE employees
+-- ADD COLUMN HireDate int;
+-- UPDATE employees
+-- SET HireDate=(2022)
+-- WHERE Name='Matvey';
+-- SELECT Name
+-- FROM employees
+-- WHERE Position='Manager';
+-- SELECT Name
+-- FROM employees
+-- WHERE Salary>5000;
+-- SELECT AVG(Salary)
+-- FROM employees;
+-- DROP TABLE employees
